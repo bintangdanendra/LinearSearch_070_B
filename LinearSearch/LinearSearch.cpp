@@ -52,7 +52,7 @@ void LinearSearch()
 				cout << "\n" << item << " found at position " << (i + 1) << endl;
 				break;
 			}
-		}
+		} 
 
 		if (i == n)                                                                            // Langkah 5B not found
 			cout << "\n" << item << "not found in the array\n";
