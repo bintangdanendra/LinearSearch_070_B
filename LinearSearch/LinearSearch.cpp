@@ -69,4 +69,4 @@ int main()
 {
 	input();
 	LinearSearch();
-}
+} 
