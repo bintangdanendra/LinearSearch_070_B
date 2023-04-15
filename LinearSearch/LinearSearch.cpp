@@ -34,7 +34,7 @@ void input()
 void LinearSearch()
 {
 	char ch;
-	int comparisons; // Number of comparisons
+	int comparisons;																			// Number of comparisons 
 
 	do
 	{
@@ -44,7 +44,7 @@ void LinearSearch()
 		cin >> item;
 
 		comparisons = 0;
-		for (i = 0; i < n; i++)                                                                // Langkah No. 2 & 3 & 4 Algoritma
+		for (i = 0; i < n; i++)																   // Langkah No. 2 & 3 & 4 Algoritma
 		{
 			comparisons++;
 			if (arr[i] == item)                                                                // Langkah No. 5B Found
