@@ -41,7 +41,7 @@ void LinearSearch()
 		// Accept the number to be searched
 		cout << "\nEnter the element you want to search: "; // Langkah No. 1 Algoritma
 		int item;
-		cin >> item;
+		cin >> item; 
 
 		comparisons = 0;
 		for (i = 0; i < n; i++)																   // Langkah No. 2 & 3 & 4 Algoritma
